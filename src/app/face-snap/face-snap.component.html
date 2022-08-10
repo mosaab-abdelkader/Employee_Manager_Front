@@ -1,0 +1,14 @@
+<div class="face-snap-style" [ngClass]="{snapped : textSnap==='Oups Unsnap'}"  >
+
+  <!-- il y a trois pipe pour case : upercase, lowercase et titlecase -->
+  <h2>{{faceSnap.title | titlecase}}</h2>
+  <div>
+    <h6>{{faceSnap.description}}</h6>
+  </div>
+
+  <button (click)="onView()" >
+    View
+  </button>
+</div>
+
+

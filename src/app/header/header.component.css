@@ -1,0 +1,17 @@
+header {
+  text-align: center;
+  background-color: cornflowerblue;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+
+}
+
+.active {
+  color: #669;
+  text-decoration: underline;
+}

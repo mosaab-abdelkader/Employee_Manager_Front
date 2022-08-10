@@ -1,0 +1,67 @@
+
+.face-snap-style {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 70px auto;
+  padding: 10px 30px;
+  box-shadow: lightgray 4px 4px 20px;
+
+
+}
+
+
+h2{
+  margin-bottom: 0;
+}
+
+p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+button{
+  background-color: cornflowerblue;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border: none;
+  box-shadow: magenta 3px 3px 7px;
+  margin-right: 20px;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  /*
+  &:active {
+
+   }*/
+}
+button:active{
+  transform: translate(1px, 1px);
+  box-shadow: lightgray 0 0 5px;
+}
+.snapped{
+
+  background-color: greenyellow;
+
+  border: yellow solid 3px;
+  color: blueviolet;
+
+}
+#fuck {
+  width: 50%;
+  margin : 0px;
+  box-sizing: border-box;
+  border: black solid 6px;
+}
+button.snapped{
+  background-color: cornflowerblue;
+
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border: none;
+  box-shadow: lightgreen 3px 3px 3px;
+  color: blueviolet;
+}
+button.snapped:active{
+  box-shadow:lightgreen 3px 3px 7px;
+}
+
